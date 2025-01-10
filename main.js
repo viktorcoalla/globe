@@ -13,11 +13,26 @@ const canvas = document.getElementById('canvas3d');
 const spline = new Application(canvas);
 spline.load('public/3d-models/planet/scene.splinecode');
 
+import { Application } from '@splinetool/runtime';
+
+const canvas = document.getElementById('canvas3d');
+const app = new Application(canvas);
+app.load('https://prod.spline.design/UFpKuZy1fvO75bRY/scene.splinecode');
+
+
+
+
+
 // TODO: does not work?
 spline.setBackgroundColor('red');
 
 // import spline viewer webcomponent
 import { SplineViewer } from '@splinetool/viewer';
+
+
+
+
+
 
 // Vite scaffold demo code:
 // import javascriptLogo from './javascript.svg'
