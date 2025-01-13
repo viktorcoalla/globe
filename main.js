@@ -4,23 +4,6 @@ import './style.css'
 
 // Import spline scene via vanillajs runtime: 
 
-import { Application } from '@splinetool/runtime';
-
-// make sure you have a canvas in the body
-const canvas = document.getElementById('canvas3d');
-
-// start the application and load the scene (selfhosted)
-const spline = new Application(canvas);
-spline.load('https://prod.spline.design/NLJQKrY8OvnlPUHJ/scene.splinecode');
-
-import { Application } from '@splinetool/runtime';
-
-const canvas = document.getElementById('canvas3d');
-const app = new Application(canvas);
-
-
-app.load('https://prod.spline.design/NLJQKrY8OvnlPUHJ/scene.splinecode');
-
 
 import { Application } from 'https://unpkg.com/@splinetool/runtime@1.9.58/build/runtime.js';
 			
