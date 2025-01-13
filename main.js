@@ -22,14 +22,15 @@ const app = new Application(canvas);
 app.load('https://prod.spline.design/NLJQKrY8OvnlPUHJ/scene.splinecode');
 
 
+import { Application } from 'https://unpkg.com/@splinetool/runtime@1.9.58/build/runtime.js';
+			
+			const canvas = document.getElementById('canvas3d');
+			const app = new Application(canvas);
+			
 
+app.load('https://prod.spline.design/NLJQKrY8OvnlPUHJ/scene.splinecode');
 
-// TODO: does not work?
-spline.setBackgroundColor('red');
-
-// import spline viewer webcomponent
-import { SplineViewer } from '@splinetool/viewer';
-
+			
 
 
 
