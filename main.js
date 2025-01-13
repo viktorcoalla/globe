@@ -11,7 +11,7 @@ const canvas = document.getElementById('canvas3d');
 
 // start the application and load the scene (selfhosted)
 const spline = new Application(canvas);
-spline.load('public/3d-models/planet/scene.splinecode');
+spline.load('https://prod.spline.design/NLJQKrY8OvnlPUHJ/scene.splinecode');
 
 import { Application } from '@splinetool/runtime';
 
